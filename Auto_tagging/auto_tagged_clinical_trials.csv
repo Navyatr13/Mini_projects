@@ -1,0 +1,6 @@
+trial_id,title,summary,category
+NCT001,Lung Cancer Immunotherapy Study,This phase 2 clinical trial tests the efficacy of a novel immunotherapy for non-small cell lung cancer. Patients are monitored for tumor regression and immune response over 12 months.,Oncology
+NCT002,Hypertension Treatment Study,A study evaluating the effect of a new blood pressure medication on hypertension. The trial includes 500 participants monitored over a period of 8 months.,Cardiology
+NCT003,Diabetes and Insulin Pump Therapy,This trial examines the impact of continuous insulin pump therapy on glucose control in Type 1 diabetic patients over a 6-month period.,Diabetes
+NCT004,COVID-19 Vaccine Booster Trial,"A clinical study assessing the safety and efficacy of a booster dose of an mRNA-based COVID-19 vaccine, measuring immune response and potential side effects.",Oncology
+NCT005,Stroke Prevention in Atrial Fibrillation,"A cardiology trial evaluating a new anticoagulant medication in reducing stroke risk among patients with atrial fibrillation. The study follows 1,200 patients over two years.",Cardiology

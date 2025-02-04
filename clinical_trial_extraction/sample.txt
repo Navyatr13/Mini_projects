@@ -1,0 +1,6 @@
+Trial ID: NCT001
+Title: Drug X vs Placebo for Hypertension
+Study Population: 500 patients (aged 40-65)
+Intervention: 10mg Drug X daily for 6 months
+Results: 25% BP Reduction, 5% adverse effects
+Funding: NIH

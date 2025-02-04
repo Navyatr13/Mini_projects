@@ -1,0 +1,6 @@
+2024-01-28 12:00:01 ERROR Something went wrong
+2024-01-28 12:05:23 INFO User logged in
+2024-01-28 12:06:45 WARNING High memory usage detected
+2024-01-28 12:10:00 INFO User logged out
+2024-01-28 12:15:10 ERROR Database connection lost
+

@@ -1,0 +1,27 @@
+[
+    {
+        "trial_id": "NCT001",
+        "title": "Lung Cancer Immunotherapy Study",
+        "summary": "This phase 2 clinical trial tests the efficacy of a novel immunotherapy for non-small cell lung cancer. Patients are monitored for tumor regression and immune response over 12 months."
+    },
+    {
+        "trial_id": "NCT002",
+        "title": "Hypertension Treatment Study",
+        "summary": "A study evaluating the effect of a new blood pressure medication on hypertension. The trial includes 500 participants monitored over a period of 8 months."
+    },
+    {
+        "trial_id": "NCT003",
+        "title": "Diabetes and Insulin Pump Therapy",
+        "summary": "This trial examines the impact of continuous insulin pump therapy on glucose control in Type 1 diabetic patients over a 6-month period."
+    },
+    {
+        "trial_id": "NCT004",
+        "title": "COVID-19 Vaccine Booster Trial",
+        "summary": "A clinical study assessing the safety and efficacy of a booster dose of an mRNA-based COVID-19 vaccine, measuring immune response and potential side effects."
+    },
+    {
+        "trial_id": "NCT005",
+        "title": "Stroke Prevention in Atrial Fibrillation",
+        "summary": "A cardiology trial evaluating a new anticoagulant medication in reducing stroke risk among patients with atrial fibrillation. The study follows 1,200 patients over two years."
+    }
+]

@@ -1,0 +1,53 @@
+
+
+def parse_log_file(filename, start_date, end_date):
+    event_counts = defaultdict(int)
+    with open(filename, 'r') as file:
+        for line in file:
+            parts = line.strip().split(" ", 3)
+            if len(parts) < 4:
+                continue  # Skip malformed lines
+
+            timestamp_str, event_type = parts[0] + " " + parts[1], parts[2]
+            try:
+                timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+
+                # Apply date filtering
+                if start_date and timestamp < start_date:
+                    continue
+                if end_date and timestamp > end_date:
+                    continue
+
+                event_counts[event_type] += 1
+            except ValueError:
+                continue  # Skip malformed timestamp lines
+
+        return event_counts
+
+
+# Function to display event summary
+def display_summary(event_counts):
+    print("Event Summary:")
+    for event, count in sorted(event_counts.items(), key=lambda x: x[1], reverse=True):
+        print(f"{event}: {count} occurrences")
+
+    if event_counts:
+        most_frequent = max(event_counts, key=event_counts.get)
+        print(f"\nMost Frequent Event: {most_frequent} ({event_counts[most_frequent]} times)")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Log Analyzer")
+    parser.add_argument("filename", type = str, help = "Path to log file")
+    parser.add_argument("--start_date", type = str, help="Start date (YYYY-MM-DD)", default = None)
+    parser.add_argument("--end_date", type = str, help="End date (YYYY-MM-DD)", default = None)
+
+    args = parser.parse_args()
+    start_date = datetime.strptime(args.start_date, "%Y-%m-%d") if args.start_date else None
+    end_date = datetime.strptime(args.end_date, "%Y-%m-%d") if args.end_date else None
+
+    events_counts = parse_log_file(args.filename, start_date, end_date)
+    display_summary(events_counts)
+
+if __name__ == "__main__":
+    main()

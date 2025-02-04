@@ -1,0 +1,38 @@
+[
+    {
+        "city": "San Diego",
+        "Temperature": 19.51,
+        "Humidity": 65,
+        "Weather Condition": "clear sky"
+    },
+    {
+        "city": "San Francisco",
+        "Temperature": 14.91,
+        "Humidity": 73,
+        "Weather Condition": "overcast clouds"
+    },
+    {
+        "city": "New York",
+        "Temperature": 6.73,
+        "Humidity": 72,
+        "Weather Condition": "clear sky"
+    },
+    {
+        "city": "New York",
+        "Temperature": 6.73,
+        "Humidity": 72,
+        "Weather Condition": "clear sky"
+    },
+    {
+        "city": "Los Angeles",
+        "Temperature": 20.2,
+        "Humidity": 64,
+        "Weather Condition": "haze"
+    },
+    {
+        "city": "Chicago",
+        "Temperature": 2.74,
+        "Humidity": 95,
+        "Weather Condition": "mist"
+    }
+]
